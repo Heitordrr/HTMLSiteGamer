@@ -3,53 +3,79 @@
   <head>
     <title>MENU</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
-  <body>
-    <div class="dropdown">
-      <img src="LOGO.png" alt="banner" width=60 height=60>
-      <h3>PACGAMES.</h3>
-      <a href="file:///C:/Users/Heito/OneDrive/Documentos/OI/SENAI/HTML%20SENAI/login.html">LOGIN</a>
-      <a href="linkParaCadastro">CADASTRO</a>
-      <p> </p>
-      <div class="dropdown-child">
+  <body bgcolor="#4F4F4F">
+    <div class="logo">
+      <img src="img/LOGO.png" alt="banner" width= 180px height=180px>
+
+    <div class = "pacplay">
+      <h3> PACPLAY </h3>
+
+    </div>
+      <div id="Buscar">
+        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+        <img src="img/lupa.png" alt="Buscar" width=26 height=32px/>
+      </div>
+
+    <div>
+      <a href="file:///C:/Users/Heito/OneDrive/Documentos/OI/SENAI/HTML%20SENAI/login.html"><button class="btlogin">LOGIN</button></a>
+    </div>  
+    <div>
+      <a href="linkParaCadastro"><button class="btcadastro">CADASTRO</button></a>
+    </div>
+    </div>
+   
+      <div class="menu">
         
-        <a href="linkParaOHome">HOME</a>
-        <a href="linkParaOPcGamer">PC GAMER</a>
-        <a href="linkParaConsoles">CONSOLES</a>
-        <a href="linkParaJogos">JOGOS</a>
-        <a href="linkParaDestaques">DESTAQUES</a>
+        <a href="linkParaOHome"><button class="bthome">HOME</button></a>
+        <a href="linkParaOPcGamer"><button class="btpc">PC GAMER</button></a>
+        <a href="linkParaConsoles"><button class="btconsole">CONSOLES</button></a>
+        <a href="linkParaJogos"><button class="btjogos">JOGOS</button></a>
+        <a href="linkParaDestaques"><button class="btdestaque">DESTAQUES</button></a>
         
       </div>
-    </div>
+    
     <div>
-      <img src="setup.png" alt="banner" width=600 height=300>
+      <img src="img/setup.png" alt="banner" width=100% height=400px>
     </div>
-    <p></p>
-    <p><h4>DESTAQUES</h4></p>
-    <div>
+    
+    <div class="destaque">
+    <p class="destaq">DESTAQUES</p>
+  </div>
+    <div class="outdoor">
       <!-- Aqui é um banner de destaques e novidades, se obervar em baixo ele é estilo carrosel, vai passando e monstrando coisas da loja -->
-    <img src="DESCONTO de 15%.png" alt="banner" width=600 height=300>
+    <img class="desconto"src="img/DESCONTO de 15%.png" alt="banner" width=80% height=400px>
   </div>
-  <div>
-    <p><h3>GALERIA</h3></p>
-    <img src="cpu.webp" alt="banner" width=100 height=100>
-    <img src="jogo.png" alt="banner" width=100 height=100>
-    <img src="ps5.png" alt="banner" width=100 height=100>
-
-  </div>
-  <p>_________________________________________________________________________________________________</p>
   
-  <footer>
-    <table>
-      <tr><td>ATENDIMENTO</td> <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REDES SOCIAIS</td></tr>
-      <tr><td>(xx)xxxx-xxxx</td> <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="facebook.png" alt="banner" width=30 height=30>PACPLAY</td></tr>
-      <tr><td>(xx)xxxxx-xxxx</td> <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="instagram.webp" alt="banner" width=30 height=30>@PACPLAY</td></tr>
-      <tr><td>pacplay@games.com</td> <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="tt.png" alt="banner" width=30 height=30>@PACPLAY</td></tr>
+    <p><h3 class="galeria">GALERIA</h3></p>
+  <div>
+    <img class="cpu" src="img/cpu.webp" alt="banner" width=200 height=200>
+    <img class="jogo" src="img/jogo.png" alt="banner" width=200 height=200>
+    <img class="ps5" src="img/ps5.png" alt="banner" width=200 height=200>
 
-      
-   </table>
-   <br><br>
-   <img src="selow.jpg" alt="banner" width=120 height=100>
-  </footer>
+  </div>
+
+  <p>____________________________________________________________________________________________________________________________________________________________________________________________________________________</p>
+
+
+  <div class="rodape">
+
+    <table class="tabelaRedes">
+       <td>REDES SOCIAIS</td></tr>
+      <td><img src="img/facebook.png" alt="banner" width=30 height=30>PACPLAY</td></tr>
+       <td><img src="img/instagram.webp" alt="banner" width=30 height=30>@PACPLAY</td></tr>
+       <td><img src="img/tt.png" alt="banner" width=30 height=30>@PACPLAY</td></tr>
+    </table>
+    <table class="tabelaAtendimento">
+      <tr><td>ATENDIMENTO</td></tr>
+      <tr><td>(xx)xxxx-xxxx</td></tr>
+      <tr><td>(xx)xxxxx-xxxx</td></tr>
+      <tr><td>pacplay@games.com</td></tr>
+    </table>
+
+      <img class="selo" src="img/selow.jpg" alt="banner" width="150" height="130"> 
+   
+  </div>
   </body>
 </html>
